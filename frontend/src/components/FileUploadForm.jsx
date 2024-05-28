@@ -28,7 +28,7 @@ const FileUploadForm = () => {
 
       try {
         setLoading(true);
-        const endpoint = "http://localhost:8000/upload";
+        const endpoint = "http://13.48.6.219/upload";
         const response = await fetch(endpoint, {
           method: "POST",
           body: formData,
