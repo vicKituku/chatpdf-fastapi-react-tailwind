@@ -12,7 +12,7 @@ const ChatWindow = ({ namespace }) => {
     setMessages([...messages, userMessage]);
 
     try {
-      const response = await axios.post("https://13.48.6.219/query", {
+      const response = await axios.post("https://16.16.77.46/query", {
         query: message,
         namespace: namespace.toString(), // Replace with actual namespace
       });
